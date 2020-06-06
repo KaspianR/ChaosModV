@@ -1,3 +1,7 @@
+/*
+	Effect by KaspianR
+*/
+
 #include <stdafx.h>
 
 static void OnStart()

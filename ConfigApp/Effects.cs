@@ -245,6 +245,7 @@ namespace ConfigApp
             EFFECT_SLIDY_PEDS,
             EFFECT_SPAWN_DANCING_APES,
             EFFECT_AMPLIFY_CUR_MOV,
+            EFFECT_IGNITE_FLOOR,
             _EFFECT_ENUM_MAX
         }
 
@@ -455,6 +456,7 @@ namespace ConfigApp
             {EffectType.EFFECT_SLIDY_PEDS, new EffectInfo("Slidy Peds", EffectCategory.PEDS, "peds_slidy", true)},
             {EffectType.EFFECT_SPAWN_DANCING_APES, new EffectInfo("Spawn Dance Troop", EffectCategory.PEDS, "peds_spawndancingapes")},
             {EffectType.EFFECT_AMPLIFY_CUR_MOV, new EffectInfo("Amplify Current Velocity", EffectCategory.MISC, "player_amplifyvelocity")},
+            {EffectType.EFFECT_IGNITE_FLOOR, new EffectInfo("Ignite Floor", EffectCategory.MISC, "misc_ignitefloor")},
         };
     }
 }
